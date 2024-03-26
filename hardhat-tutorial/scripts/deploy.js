@@ -3,8 +3,9 @@ async function main() {
 	const [deployer] = await ethers.getSigners();
 	console.log('deploy from address: ', deployer.address);
 
-	const Token = await ethers.getContractFactory('Token');
+	const Token = await ethers.getContractFactory('Dustin');
 	const token = await Token.deploy();
+	console.log('Market token: ', token);
 	console.log('Market deployed at: ', token.address);
 }
 

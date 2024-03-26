@@ -2,6 +2,7 @@ require('@nomicfoundation/hardhat-toolbox');
 const {vars} = require('hardhat/config');
 
 const WALLET__SECRET_KEY = vars.get('WALLET__SECRET_KEY');
+const API_KEY = vars.get('API_KEY');
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {
 	solidity: '0.8.24',
@@ -11,7 +12,12 @@ module.exports = {
 			accounts: [WALLET__SECRET_KEY],
 		},
 	},
+
 	etherscan: {
-		apiKey: WALLET__SECRET_KEY,
+		apiKey: API_KEY,
+	},
+
+	sourcify: {
+		enabled: true,
 	},
 };
