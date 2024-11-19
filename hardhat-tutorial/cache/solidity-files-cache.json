@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Julia.sol": {
-      "lastModificationDate": 1731999810105,
-      "contentHash": "ab72db01cad9d981329fee3c20bc7af8",
+      "lastModificationDate": 1732005553492,
+      "contentHash": "20f5514c991cd3d7d7963e2a87bb7f83",
       "sourceName": "contracts/Julia.sol",
       "solcConfig": {
         "version": "0.8.24",

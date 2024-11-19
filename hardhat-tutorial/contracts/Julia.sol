@@ -23,9 +23,23 @@ contract Julia is
         _mint(to, amount);
     }
 
+
+    function checkMaxSupplyV2(uint256 amount) internal view {
+    require(totalSupply() + amount <= cap, "Exceeds max supply");
+}
+
+
     // Preventing transfers if the balance exceeds the maximum supply
-    function _beforeTokenTransfer(address from, address to, uint256 amount) internal override checkMaxSupply(amount) {
+    function _beforeTokenTransfer(
+        address from,
+        address to,
+        uint256 amount
+    ) internal virtual override {
         super._beforeTokenTransfer(from, to, amount);
+
+        if (from == address(0)) { 
+            checkMaxSupplyV2(amount);
+        }
     }
 
     function getBalance( address _from) public view returns(uint256) {
