@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Julia.sol": {
-      "lastModificationDate": 1732005553492,
-      "contentHash": "20f5514c991cd3d7d7963e2a87bb7f83",
+      "lastModificationDate": 1732071708588,
+      "contentHash": "a887e973d2e83e92c35812d241eb7355",
       "sourceName": "contracts/Julia.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -346,6 +346,42 @@
         "AccessControl"
       ]
     },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/IAccessControl.sol": {
+      "lastModificationDate": 1731911026654,
+      "contentHash": "57c84298234411cea19c7c284d86be8b",
+      "sourceName": "openzeppelin-solidity/contracts/access/IAccessControl.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IAccessControl"
+      ]
+    },
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/Strings.sol": {
       "lastModificationDate": 1731911026675,
       "contentHash": "396031251978f8febfd90cb62cb240ec",
@@ -420,42 +456,6 @@
       ],
       "artifacts": [
         "ERC165"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/IAccessControl.sol": {
-      "lastModificationDate": 1731911026654,
-      "contentHash": "57c84298234411cea19c7c284d86be8b",
-      "sourceName": "openzeppelin-solidity/contracts/access/IAccessControl.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IAccessControl"
       ]
     },
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/math/Math.sol": {
@@ -645,7 +645,7 @@
       ]
     },
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Vault.sol": {
-      "lastModificationDate": 1711589746926,
+      "lastModificationDate": 1732074132693,
       "contentHash": "d545a7653a5c30f5943fb6f60c49a992",
       "sourceName": "contracts/Vault.sol",
       "solcConfig": {
@@ -795,6 +795,230 @@
       ],
       "artifacts": [
         "IERC20Permit"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
+      "lastModificationDate": 1732071665487,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
+      "lastModificationDate": 1732071665298,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
+      "lastModificationDate": 1732071665291,
+      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+      "lastModificationDate": 1732071853020,
+      "contentHash": "8f19f64d2adadf448840908bbaf431c8",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
+      "lastModificationDate": 1732071665486,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/TokenWallet.sol": {
+      "lastModificationDate": 1732088723877,
+      "contentHash": "0ecbafd1d3b162f7704e29c32944e89d",
+      "sourceName": "contracts/TokenWallet.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+        "openzeppelin-solidity/contracts/access/Ownable.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.24"
+      ],
+      "artifacts": [
+        "TokenWallet"
       ]
     }
   }

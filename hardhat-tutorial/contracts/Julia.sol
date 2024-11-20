@@ -28,7 +28,6 @@ contract Julia is
     require(totalSupply() + amount <= cap, "Exceeds max supply");
 }
 
-
     // Preventing transfers if the balance exceeds the maximum supply
     function _beforeTokenTransfer(
         address from,
