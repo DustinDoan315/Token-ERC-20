@@ -798,8 +798,8 @@
       ]
     },
     "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/TokenWallet.sol": {
-      "lastModificationDate": 1732088764474,
-      "contentHash": "0ecbafd1d3b162f7704e29c32944e89d",
+      "lastModificationDate": 1732260958352,
+      "contentHash": "13541fcbb668fe4e3960b69d83edf934",
       "sourceName": "contracts/TokenWallet.sol",
       "solcConfig": {
         "version": "0.8.24",

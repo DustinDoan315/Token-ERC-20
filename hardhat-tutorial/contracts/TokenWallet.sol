@@ -32,14 +32,14 @@ contract TokenWallet is Ownable {
         IERC20(myToken).approve(address(uniswapRouter), tokenAmount);
 
         // Path: Token -> WETH
-        address[] memory path;
+        address[] memory path = new address[](2);
         path[0] = myToken;
         path[1] = uniswapRouter.WETH();
 
         // Swap tokens for ETH
         uniswapRouter.swapExactTokensForETH(
             tokenAmount,
-            0, // Accept any amount of ETH (slippage tolerance set to 0)
+            0,
             path,
             msg.sender,
             block.timestamp
@@ -55,14 +55,14 @@ contract TokenWallet is Ownable {
         IERC20(myToken).approve(address(uniswapRouter), tokenAmount);
 
         // Path: Token -> USDT
-        address[] memory path;
+        address[] memory path = new address[](2);
         path[0] = myToken;
         path[1] = USDT;
 
         // Swap tokens for USDT
         uniswapRouter.swapExactTokensForTokens(
             tokenAmount,
-            0, // Accept any amount of USDT (slippage tolerance set to 0)
+            0,
             path,
             msg.sender,
             block.timestamp
@@ -74,13 +74,13 @@ contract TokenWallet is Ownable {
         require(msg.value > 0, "ETH amount must be greater than 0");
 
         // Path: ETH -> Token
-        address[] memory path;
+        address[] memory path = new address[](2);
         path[0] = uniswapRouter.WETH();
         path[1] = myToken;
 
         // Swap ETH for Token
         uniswapRouter.swapExactETHForTokens{ value: msg.value }(
-            0, // Accept any amount of tokens (slippage tolerance set to 0)
+            0,
             path,
             msg.sender,
             block.timestamp

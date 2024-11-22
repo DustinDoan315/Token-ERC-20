@@ -35,4 +35,9 @@ const config: HardhatUserConfig = {
   },
 };
 
+process.on("warning", (warning) => {
+  if (warning.name === "ExperimentalWarning") {
+  }
+});
+
 export default config;
