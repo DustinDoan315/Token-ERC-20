@@ -4,3 +4,4 @@
 export type { Julia } from "./Julia";
 export type { TokenWallet } from "./TokenWallet";
 export type { Vault } from "./Vault";
+export type { Wallet } from "./Wallet";

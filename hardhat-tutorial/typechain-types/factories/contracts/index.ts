@@ -4,3 +4,4 @@
 export { Julia__factory } from "./Julia__factory";
 export { TokenWallet__factory } from "./TokenWallet__factory";
 export { Vault__factory } from "./Vault__factory";
+export { Wallet__factory } from "./Wallet__factory";

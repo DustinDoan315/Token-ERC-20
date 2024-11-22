@@ -26,6 +26,8 @@ export type { TokenWallet } from "./contracts/TokenWallet";
 export { TokenWallet__factory } from "./factories/contracts/TokenWallet__factory";
 export type { Vault } from "./contracts/Vault";
 export { Vault__factory } from "./factories/contracts/Vault__factory";
+export type { Wallet } from "./contracts/Wallet";
+export { Wallet__factory } from "./factories/contracts/Wallet__factory";
 export type { AccessControl } from "./openzeppelin-solidity/contracts/access/AccessControl";
 export { AccessControl__factory } from "./factories/openzeppelin-solidity/contracts/access/AccessControl__factory";
 export type { AccessControlEnumerable } from "./openzeppelin-solidity/contracts/access/AccessControlEnumerable";
