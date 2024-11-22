@@ -34,61 +34,61 @@ describe("TokenWallet Contract", function () {
 
     // Assume USDT address is set (mock or real)
     USDTAddress = await tokenWallet.USDT();
+  });
 
-    it("should have the correct owner", async function () {
-      const contractOwner = await tokenWallet.owner();
-      expect(contractOwner).to.equal(owner.address);
-    });
+  it("should have the correct owner", async function () {
+    const contractOwner = await tokenWallet.owner();
+    expect(contractOwner).to.equal(owner.address);
+  });
 
-    it("should perform a swap from ETH to Token", async function () {
-      const initialBalance = await ethers.provider.getBalance(
-        tokenWallet.getAddress()
-      );
+  it("should perform a swap from ETH to Token", async function () {
+    const initialBalance = await ethers.provider.getBalance(
+      tokenWallet.getAddress()
+    );
 
-      // Send ETH to contract and swap
-      const amountToSend = ethers.parseEther("1");
-      await tokenWallet.connect(addr1).swapETHToToken({ value: amountToSend });
+    // Send ETH to contract and swap
+    const amountToSend = ethers.parseEther("1");
+    await tokenWallet.connect(addr1).swapETHToToken({ value: amountToSend });
 
-      // Verify contract balance
-      const finalBalance = await ethers.provider.getBalance(
-        tokenWallet.getAddress()
-      );
-      expect(finalBalance).to.be.gt(initialBalance);
+    // Verify contract balance
+    const finalBalance = await ethers.provider.getBalance(
+      tokenWallet.getAddress()
+    );
+    expect(finalBalance).to.be.gt(initialBalance);
 
-      // Check token balance of user (mock data since swap might need Uniswap setup)
-      const userBalance = await tokenWallet.getContractBalance();
-      expect(userBalance).to.be.gt(0);
-    });
+    // Check token balance of user (mock data since swap might need Uniswap setup)
+    const userBalance = await tokenWallet.getContractBalance();
+    expect(userBalance).to.be.gt(0);
+  });
 
-    it("should withdraw ETH correctly", async function () {
-      const contractBalance = await ethers.provider.getBalance(
-        tokenWallet.getAddress()
-      );
+  it("should withdraw ETH correctly", async function () {
+    const contractBalance = await ethers.provider.getBalance(
+      tokenWallet.getAddress()
+    );
 
-      const amountToWithdraw = ethers.parseEther("0.5");
-      await tokenWallet.connect(owner).withdrawETH(amountToWithdraw);
+    const amountToWithdraw = ethers.parseEther("0.5");
+    await tokenWallet.connect(owner).withdrawETH(amountToWithdraw);
 
-      const newContractBalance = await ethers.provider.getBalance(
-        tokenWallet.getAddress()
-      );
-      // expect(newContractBalance).to.equal(contractBalance.sub(amountToWithdraw));
-    });
+    const newContractBalance = await ethers.provider.getBalance(
+      tokenWallet.getAddress()
+    );
+    // expect(newContractBalance).to.equal(contractBalance.sub(amountToWithdraw));
+  });
 
-    it("should withdraw tokens correctly", async function () {
-      const tokenAmount: BigNumberish = 1000000000000000000;
-      await tokenWallet.connect(owner).withdrawTokens(USDTAddress, tokenAmount);
+  it("should withdraw tokens correctly", async function () {
+    const tokenAmount: BigNumberish = 1000000000000000000;
+    await tokenWallet.connect(owner).withdrawTokens(USDTAddress, tokenAmount);
 
-      // Assuming the owner gets tokens after withdrawal
-      // Mocking token balance verification
-      const ownerTokenBalance = await tokenWallet.getContractBalance();
-      expect(ownerTokenBalance).to.be.gt(0);
-    });
+    // Assuming the owner gets tokens after withdrawal
+    // Mocking token balance verification
+    const ownerTokenBalance = await tokenWallet.getContractBalance();
+    expect(ownerTokenBalance).to.be.gt(0);
+  });
 
-    it("should allow ownership transfer", async function () {
-      await tokenWallet.connect(owner).transferOwnership(addr1.address);
+  it("should allow ownership transfer", async function () {
+    await tokenWallet.connect(owner).transferOwnership(addr1.address);
 
-      const newOwner = await tokenWallet.owner();
-      expect(newOwner).to.equal(addr1.address);
-    });
+    const newOwner = await tokenWallet.owner();
+    expect(newOwner).to.equal(addr1.address);
   });
 });

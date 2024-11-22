@@ -14,7 +14,7 @@ async function main() {
   const contract = await ethers.deployContract("Julia", {
     gasLimit: "0x1000000",
   });
-  console.log("Contract deployed at: ", contract.getAddress());
+  console.log("Contract deployed at: ", contract);
 }
 
 main()

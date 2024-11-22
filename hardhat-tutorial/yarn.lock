@@ -2580,7 +2580,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:4.1.2, chalk@npm:^4.0.0, chalk@npm:^4.1.0":
+"chalk@npm:4.1.2, chalk@npm:^4.0.0, chalk@npm:^4.1.0, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
   dependencies:
@@ -3822,7 +3822,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethers@npm:^5.0.13":
+"ethers@npm:^5.0.13, ethers@npm:^5.6.1":
   version: 5.7.2
   resolution: "ethers@npm:5.7.2"
   dependencies:
@@ -4712,6 +4712,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hardhat-tracer@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "hardhat-tracer@npm:3.1.0"
+  dependencies:
+    chalk: ^4.1.2
+    debug: ^4.3.4
+    ethers: ^5.6.1
+    semver: ^7.6.2
+  peerDependencies:
+    chai: 4.x
+    hardhat: ">=2.22.5 <3.x"
+  checksum: ddf002fa60b1444a13fe0d7c903abfa92cfe4f4f51bf6aff1c7a4fe3ef5254584bb44536c171c46af3d90edd490d5da0398d49f28fe9590a29848aeb8ba2cc39
+  languageName: node
+  linkType: hard
+
 "hardhat-tutorial@workspace:.":
   version: 0.0.0-use.local
   resolution: "hardhat-tutorial@workspace:."
@@ -4734,6 +4749,7 @@ __metadata:
     ethers: ^6.11.1
     hardhat: latest
     hardhat-gas-reporter: ^2.0.2
+    hardhat-tracer: ^3.1.0
     openzeppelin-solidity: ^4.6.0
     solidity-coverage: ^0.8.11
     ts-node: ^10.9.2
@@ -7518,7 +7534,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.5.4":
+"semver@npm:^7.3.5, semver@npm:^7.5.4, semver@npm:^7.6.2":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
   bin:
