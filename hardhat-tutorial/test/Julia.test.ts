@@ -17,10 +17,10 @@ describe("Julia Token", function () {
     juliaToken = (await TokenFactory.deploy()) as any;
   });
 
-  const cap: BigNumberish = ethers.parseUnits("50000", 18);
-  const mintAmount: BigNumberish = ethers.parseUnits("1000", 18);
-  const transferAmount: BigNumberish = ethers.parseUnits("1000", 18);
-  const burnAmount: BigNumberish = ethers.parseUnits("1000", 18);
+  const cap: BigNumberish = ethers.parseUnits("5000", 18);
+  const mintAmount: BigNumberish = ethers.parseUnits("100", 18);
+  const transferAmount: BigNumberish = ethers.parseUnits("100", 18);
+  const burnAmount: BigNumberish = ethers.parseUnits("100", 18);
 
   describe("Initialization", function () {
     it("Should have the correct name and symbol", async function () {

@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Julia.sol": {
-      "lastModificationDate": 1732071708588,
-      "contentHash": "a887e973d2e83e92c35812d241eb7355",
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\contracts\\Julia.sol": {
+      "lastModificationDate": 1732447223596,
+      "contentHash": "f18ba844d9bbac354325993e5edc4aa1",
       "sourceName": "contracts/Julia.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -42,8 +42,8 @@
         "Julia"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1731911209271,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\hardhat\\console.sol": {
+      "lastModificationDate": 1732421281455,
       "contentHash": "681c532e816169606d13a5fe8b475074",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
@@ -78,8 +78,8 @@
         "console"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/Ownable.sol": {
-      "lastModificationDate": 1731911026655,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\access\\Ownable.sol": {
+      "lastModificationDate": 1732421283612,
       "contentHash": "e436cea06129be2c73cda4b1acc848b5",
       "sourceName": "openzeppelin-solidity/contracts/access/Ownable.sol",
       "solcConfig": {
@@ -116,8 +116,8 @@
         "Ownable"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/ERC20.sol": {
-      "lastModificationDate": 1731911026696,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\ERC20.sol": {
+      "lastModificationDate": 1732421283483,
       "contentHash": "834a0dde221759af42b030253315b086",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
       "solcConfig": {
@@ -156,8 +156,8 @@
         "ERC20"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol": {
-      "lastModificationDate": 1731911026690,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
+      "lastModificationDate": 1732421283486,
       "contentHash": "a1c7f80ae26f5b2d7d563475627fbf25",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol",
       "solcConfig": {
@@ -195,8 +195,8 @@
         "ERC20Burnable"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/Context.sol": {
-      "lastModificationDate": 1731911026664,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Context.sol": {
+      "lastModificationDate": 1732421283448,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
       "sourceName": "openzeppelin-solidity/contracts/utils/Context.sol",
       "solcConfig": {
@@ -231,8 +231,8 @@
         "Context"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1731911026697,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1732421283554,
       "contentHash": "ad7c2d0af148c8f9f097d65deeb4da6b",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -267,8 +267,8 @@
         "IERC20"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
-      "lastModificationDate": 1731911026696,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
+      "lastModificationDate": 1732421283556,
       "contentHash": "909ab67fc5c25033fe6cd364f8c056f9",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/extensions/IERC20Metadata.sol",
       "solcConfig": {
@@ -305,8 +305,8 @@
         "IERC20Metadata"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/AccessControl.sol": {
-      "lastModificationDate": 1731911026652,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\access\\AccessControl.sol": {
+      "lastModificationDate": 1732421283438,
       "contentHash": "95a6c227d1b8843e9385518a5bce4853",
       "sourceName": "openzeppelin-solidity/contracts/access/AccessControl.sol",
       "solcConfig": {
@@ -346,8 +346,8 @@
         "AccessControl"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/Strings.sol": {
-      "lastModificationDate": 1731911026675,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1732421283628,
       "contentHash": "396031251978f8febfd90cb62cb240ec",
       "sourceName": "openzeppelin-solidity/contracts/utils/Strings.sol",
       "solcConfig": {
@@ -384,8 +384,8 @@
         "Strings"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/introspection/ERC165.sol": {
-      "lastModificationDate": 1731911026668,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\introspection\\ERC165.sol": {
+      "lastModificationDate": 1732421283477,
       "contentHash": "0e7db055ce108f9da7bb6686a00287c0",
       "sourceName": "openzeppelin-solidity/contracts/utils/introspection/ERC165.sol",
       "solcConfig": {
@@ -422,8 +422,8 @@
         "ERC165"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/IAccessControl.sol": {
-      "lastModificationDate": 1731911026654,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\access\\IAccessControl.sol": {
+      "lastModificationDate": 1732421283529,
       "contentHash": "57c84298234411cea19c7c284d86be8b",
       "sourceName": "openzeppelin-solidity/contracts/access/IAccessControl.sol",
       "solcConfig": {
@@ -458,8 +458,8 @@
         "IAccessControl"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/math/Math.sol": {
-      "lastModificationDate": 1731911026671,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\math\\Math.sol": {
+      "lastModificationDate": 1732421283603,
       "contentHash": "b9c58920ce74d6dc819161786112e7ee",
       "sourceName": "openzeppelin-solidity/contracts/utils/math/Math.sol",
       "solcConfig": {
@@ -494,8 +494,8 @@
         "Math"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/introspection/IERC165.sol": {
-      "lastModificationDate": 1731911026670,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\introspection\\IERC165.sol": {
+      "lastModificationDate": 1732421283549,
       "contentHash": "03e6768535ac4da0e9756f1d8a4a018a",
       "sourceName": "openzeppelin-solidity/contracts/utils/introspection/IERC165.sol",
       "solcConfig": {
@@ -530,8 +530,8 @@
         "IERC165"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/IAccessControlEnumerable.sol": {
-      "lastModificationDate": 1731911026654,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\access\\IAccessControlEnumerable.sol": {
+      "lastModificationDate": 1732421283530,
       "contentHash": "4e71cc90682e109e999ce2bd329f6572",
       "sourceName": "openzeppelin-solidity/contracts/access/IAccessControlEnumerable.sol",
       "solcConfig": {
@@ -568,8 +568,8 @@
         "IAccessControlEnumerable"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/access/AccessControlEnumerable.sol": {
-      "lastModificationDate": 1731911026653,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\access\\AccessControlEnumerable.sol": {
+      "lastModificationDate": 1732421283439,
       "contentHash": "b6d9b165dc57e9ad8153bdca05c783a4",
       "sourceName": "openzeppelin-solidity/contracts/access/AccessControlEnumerable.sol",
       "solcConfig": {
@@ -608,8 +608,8 @@
         "AccessControlEnumerable"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/structs/EnumerableSet.sol": {
-      "lastModificationDate": 1731911026661,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\structs\\EnumerableSet.sol": {
+      "lastModificationDate": 1732421283467,
       "contentHash": "6116ca703456923afc88ce24b466ac80",
       "sourceName": "openzeppelin-solidity/contracts/utils/structs/EnumerableSet.sol",
       "solcConfig": {
@@ -644,9 +644,9 @@
         "EnumerableSet"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Vault.sol": {
-      "lastModificationDate": 1732074132693,
-      "contentHash": "d545a7653a5c30f5943fb6f60c49a992",
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\contracts\\Vault.sol": {
+      "lastModificationDate": 1732421162844,
+      "contentHash": "c18260f8c52cb60e0c3b60bb20d0a3e3",
       "sourceName": "contracts/Vault.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -685,8 +685,8 @@
         "Vault"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol": {
-      "lastModificationDate": 1731911026698,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\utils\\SafeERC20.sol": {
+      "lastModificationDate": 1732421283622,
       "contentHash": "0320a90f714843ca19373ed143fc4466",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/utils/SafeERC20.sol",
       "solcConfig": {
@@ -725,8 +725,8 @@
         "SafeERC20"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/utils/Address.sol": {
-      "lastModificationDate": 1731911026656,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\utils\\Address.sol": {
+      "lastModificationDate": 1732421283440,
       "contentHash": "f31ad6fc4bbf9c06203987220156a6ba",
       "sourceName": "openzeppelin-solidity/contracts/utils/Address.sol",
       "solcConfig": {
@@ -761,8 +761,8 @@
         "Address"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/openzeppelin-solidity/contracts/token/ERC20/extensions/draft-IERC20Permit.sol": {
-      "lastModificationDate": 1731911026689,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\openzeppelin-solidity\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+      "lastModificationDate": 1732421283461,
       "contentHash": "fb77f144244b9ab12533aa6ce85ef8c5",
       "sourceName": "openzeppelin-solidity/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
       "solcConfig": {
@@ -797,9 +797,198 @@
         "IERC20Permit"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/TokenWallet.sol": {
-      "lastModificationDate": 1732260958352,
-      "contentHash": "13541fcbb668fe4e3960b69d83edf934",
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\contracts\\Wallet.sol": {
+      "lastModificationDate": 1732421162844,
+      "contentHash": "39fe9bb4679eaf8d9c1a530780210144",
+      "sourceName": "contracts/Wallet.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
+        "openzeppelin-solidity/contracts/access/Ownable.sol",
+        "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol"
+      ],
+      "versionPragmas": [
+        "0.8.24"
+      ],
+      "artifacts": [
+        "Wallet"
+      ]
+    },
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\@uniswap\\v2-core\\contracts\\interfaces\\IUniswapV2Factory.sol": {
+      "lastModificationDate": 1732421269133,
+      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Factory"
+      ]
+    },
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\@uniswap\\v2-core\\contracts\\interfaces\\IUniswapV2Pair.sol": {
+      "lastModificationDate": 1732421269135,
+      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
+      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IUniswapV2Pair"
+      ]
+    },
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router02.sol": {
+      "lastModificationDate": 1732421269324,
+      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IUniswapV2Router01.sol"
+      ],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router02"
+      ]
+    },
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\@uniswap\\v2-periphery\\contracts\\interfaces\\IUniswapV2Router01.sol": {
+      "lastModificationDate": 1732421269322,
+      "contentHash": "95d8729b2c698dc663322167b3c085fe",
+      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 200
+          },
+          "evmVersion": "paris",
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.6.2"
+      ],
+      "artifacts": [
+        "IUniswapV2Router01"
+      ]
+    },
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\contracts\\TokenWallet.sol": {
+      "lastModificationDate": 1732421162844,
+      "contentHash": "715fd8f7c4987af9b83634e1d23b3341",
       "sourceName": "contracts/TokenWallet.sol",
       "solcConfig": {
         "version": "0.8.24",
@@ -839,8 +1028,8 @@
         "TokenWallet"
       ]
     },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@openzeppelin/contracts/token/ERC20/IERC20.sol": {
-      "lastModificationDate": 1732071853020,
+    "C:\\Users\\NC\\Desktop\\Github\\BlockChain\\Token-ERC-20\\hardhat-tutorial\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\IERC20.sol": {
+      "lastModificationDate": 1732421269688,
       "contentHash": "8f19f64d2adadf448840908bbaf431c8",
       "sourceName": "@openzeppelin/contracts/token/ERC20/IERC20.sol",
       "solcConfig": {
@@ -873,195 +1062,6 @@
       ],
       "artifacts": [
         "IERC20"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol": {
-      "lastModificationDate": 1732071665298,
-      "contentHash": "3fa31c3860f2b9585c3a98c64850829e",
-      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IUniswapV2Pair"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol": {
-      "lastModificationDate": 1732071665291,
-      "contentHash": "ec39b5372f4f4d52101b4da561e2aee6",
-      "sourceName": "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.5.0"
-      ],
-      "artifacts": [
-        "IUniswapV2Factory"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol": {
-      "lastModificationDate": 1732071665487,
-      "contentHash": "3fd36426274a5b35f7e702f87ba08a8e",
-      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IUniswapV2Router01.sol"
-      ],
-      "versionPragmas": [
-        ">=0.6.2"
-      ],
-      "artifacts": [
-        "IUniswapV2Router02"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/node_modules/@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol": {
-      "lastModificationDate": 1732071665486,
-      "contentHash": "95d8729b2c698dc663322167b3c085fe",
-      "sourceName": "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router01.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        ">=0.6.2"
-      ],
-      "artifacts": [
-        "IUniswapV2Router01"
-      ]
-    },
-    "/Users/mobiledeveloper/Desktop/Solidity/V2/Token-ERC-20/hardhat-tutorial/contracts/Wallet.sol": {
-      "lastModificationDate": 1732266736173,
-      "contentHash": "f45c36d3711718dd4f056c9475faf371",
-      "sourceName": "contracts/Wallet.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "optimizer": {
-            "enabled": true,
-            "runs": 200
-          },
-          "evmVersion": "paris",
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "openzeppelin-solidity/contracts/token/ERC20/ERC20.sol",
-        "openzeppelin-solidity/contracts/access/Ownable.sol",
-        "openzeppelin-solidity/contracts/token/ERC20/extensions/ERC20Burnable.sol",
-        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Pair.sol",
-        "@uniswap/v2-periphery/contracts/interfaces/IUniswapV2Router02.sol",
-        "@uniswap/v2-core/contracts/interfaces/IUniswapV2Factory.sol"
-      ],
-      "versionPragmas": [
-        "0.8.24"
-      ],
-      "artifacts": [
-        "Wallet"
       ]
     }
   }
